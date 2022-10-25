@@ -1,0 +1,192 @@
+:root {
+    --banner-bg-color: #30A8EC;
+    --inmage-outline-color: #9ECCF8;
+    --text-heading-color: #5F5F5F;
+    --text-color: #666666;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+.upper-section {
+    padding: 10px;
+    max-width: 100%;
+    min-height: 460px;
+    background: linear-gradient(90deg, #51E1ED 0%, #383CC1 100%);
+}
+#my_logo {
+    position: absolute;
+    /* left: 1000px;
+    top: 100px; */
+    left: 75%;
+    top: 15%;
+}
+h1 {
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    
+    position: absolute;
+    width: 740px;
+    height: 74px;
+    left: 7%;
+    top: 102px;
+
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 80px;
+
+    color: #FFFFFF;
+
+}
+h3 {
+    position: absolute;
+    width: 203px;
+    height: 47px;
+    left: 8%;
+    top: 210px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+
+    color: #FFFFFF;
+
+}
+
+.message {
+    position: absolute;
+    width: 500px;
+    height: 81px;
+    left: 8%;
+    top: 255px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 32px;
+
+    color: #FFFFFF;
+
+}
+
+.signature {
+    position: absolute;
+    width: 221px;
+    height: 45px;
+    left: 78%;
+    top: 325px;
+
+    font-family: cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 39px;
+
+    color: #FFFFFF;
+}
+
+.nav {
+    display: inline-block;
+    position: absolute;
+    /* border: 1px solid white; */
+    top: 4%;
+    left: 6.5%;
+}
+
+.nav > ul {
+    display: flex;
+    list-style-type: none;
+   
+    
+}
+.nav > ul > li > a{
+    margin: 2px 6px;
+    padding: 6px 10px;
+    display: block;
+    /* border: 1px solid white; */
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 20px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+.nav > ul > li > a:hover {
+    background-color: rgb(255, 255, 255);
+    color: var(--banner-bg-color);
+}
+.nav > ul > li > a:active {
+    background-color: rgb(202, 64, 191);
+    color: rgb(255, 255, 255);
+}
+
+.contract {
+    padding: 0px;
+    display: inline-block;
+    min-width: 260px;
+    position: absolute;
+    left: 8%;
+    top: 54%;
+    color: rgb(255, 255, 255);
+}
+
+.contract > img {
+    margin: 4px;
+}
+.number {
+    position: absolute;
+    left: 20%;
+    top: 18%;
+
+}
+.gmail {
+    position: absolute;
+    left: 20%;
+    top: 58%;
+}
+
+.lower-section > h2 {
+    margin: 4px;
+    padding: 5px;
+    display: inline-block;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    left: 8%;
+    top: 78%;
+    color: var(--text-heading-color);
+}
+
+.text {
+    margin: 4px;
+    padding: 4px;
+    width: 600px;
+    height: 180px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--text-color);
+    font-weight: 550;
+    font-size: 18px;
+    position: absolute;
+    left: 38%;
+    top: 92%;
+}
+
+#illustration {
+    margin: 5px;
+    padding: 0px;
+    /* border: 2px solid rgb(158, 158, 158); */
+    border-radius: 16px;
+    position: absolute;
+    left: 6%;
+    top: 88%;
+}
